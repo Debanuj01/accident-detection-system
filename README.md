@@ -22,7 +22,7 @@ This advanced Computer Vision system leverages YOLOv8 object detection to monito
 ### 🎯 Key Highlights
 
 - **Real-time Detection**: Processes live video feeds with high accuracy
-- **Dual Interface**: Desktop GUI (CustomTkinter) and Web App (Streamlit)
+- **Desktop GUI**: Modern interface built with CustomTkinter
 - **Instant Alerts**: WhatsApp notifications via Twilio integration
 - **Evidence Management**: Automatic saving of accident frames with timestamps
 - **Multi-Camera Support**: Monitor multiple camera sources simultaneously
@@ -49,14 +49,6 @@ This advanced Computer Vision system leverages YOLOv8 object detection to monito
 - **Evidence Storage**: Automatically saves accident frames with metadata
 - **Detection History Viewer**: Browse all detected incidents with images
 - **Export Logs**: Export detection data to CSV format
-
-### 🌐 Web Application (app.py)
-
-- **Streamlit-based interface** for browser access
-- **Video/Image Upload**: Analyze pre-recorded footage
-- **Live Webcam Detection**: Real-time processing through browser
-- **Interactive Dashboard**: Visual statistics and detection metrics
-- **Downloadable Evidence**: Save detected accident frames
 
 ### 🧠 AI Model
 
@@ -157,22 +149,6 @@ python main.py
    - Browse all detected incidents
    - View evidence images
 
-### Web Application
-
-Launch the Streamlit app:
-
-```bash
-streamlit run app.py
-```
-
-Access the web interface at `http://localhost:8501`
-
-**Features:**
-- Upload video files for analysis
-- Use webcam for live detection
-- View detection statistics
-- Download evidence images
-
 ---
 
 ## ⚙️ Configuration
@@ -222,7 +198,6 @@ accident_frames_threshold = 5       # Frames to confirm accident
 accident-detection-system/
 │
 ├── main.py                  # Desktop application (CustomTkinter)
-├── app.py                   # Web application (Streamlit)
 ├── best.pt                  # YOLOv8 trained model
 ├── coco1.txt               # Class labels
 ├── requirements.txt        # Python dependencies
@@ -245,7 +220,6 @@ accident-detection-system/
 - **ultralytics** - YOLOv8 implementation
 - **opencv-python** - Computer vision operations
 - **customtkinter** - Modern GUI framework
-- **streamlit** - Web application framework
 - **pandas** - Data manipulation
 - **Pillow** - Image processing
 - **twilio** - WhatsApp messaging
@@ -272,13 +246,6 @@ See `requirements.txt` for complete list.
 - Real-time video feed with bounding boxes
 - Live detection status
 - Configurable settings tabs
-
-### Web Application
-
-- Clean Streamlit interface
-- Upload and analyze videos
-- Interactive detection dashboard
-- Downloadable results
 
 ---
 

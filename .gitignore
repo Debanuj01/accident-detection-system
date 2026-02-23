@@ -58,8 +58,8 @@ venv.bak/
 .DS_Store
 Thumbs.db
 
-# Evidence files (keep for demo)
-# /accident_evidence/
+# Evidence files
+accident_evidence/
 
 # Temporary files
 *.tmp
@@ -68,4 +68,5 @@ temp/
 tmp/
 
 # Streamlit
-.streamlit/secrets.toml
+.streamlit/
+*.streamlit/
