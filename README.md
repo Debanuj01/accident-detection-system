@@ -102,7 +102,14 @@ pip install -r requirements.txt
 
 ### Step 4: Download Model
 
-Ensure the `best.pt` YOLOv8 model file is in the root directory.
+**Important**: The model file is not included in the repository due to its size.
+
+See [MODEL_DOWNLOAD.md](MODEL_DOWNLOAD.md) for instructions on:
+- Training your own model
+- Using pre-trained YOLOv8 models
+- Model placement
+
+The `best.pt` file must be in the root directory before running the application.
 
 ---
 

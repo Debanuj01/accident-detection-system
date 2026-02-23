@@ -2,6 +2,16 @@
 /freedomtech/
 /images/
 
+# Large model and video files
+*.pt
+*.h5
+*.weights
+*.onnx
+*.mp4
+*.avi
+*.mov
+*.mkv
+
 # Python
 __pycache__/
 *.py[cod]
